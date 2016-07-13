@@ -1,0 +1,150 @@
+.page-header{
+  text align: center;
+  font-family: ar darling;
+}
+
+#gambar {
+    margin: 20px 20px;
+    float: right;
+    margin-bottom: 10%;
+}
+
+.navbar-color
+{
+	background-color: #959595;
+}
+
+.active-ungu
+{
+	background-color: white;
+}
+
+.photo
+{
+	float:left;
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination .non a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd; /* Gray */
+    margin: 20px 4px; /* 0 is for top and bottom */
+    transition: background-color 3s;
+    background-color: lightblue;
+    color: black;
+    font-size: 10px;
+
+}
+
+ul.pagination .aktif {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd; /* Gray */
+    margin: 20px 4px; /* 0 is for top and bottom */
+    transition: background-color 3s;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+.viewdetail
+{
+    float: right;
+}
+
+.panel {
+margin-bottom: 20px;
+background-color: pink;
+border: 1px solid transparent;
+border-radius: 4px;
+-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.container-fluid {
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+background-color: white;
+}
+
+#body
+{
+    background-color: url(img/bg1.jpg);
+}
+.transparan2
+{
+    background:rgba(0,0,0,0.4);
+}
+  
+body{
+  background:#ffffff;
+  margin: 0;
+}
+h5{
+    padding-top: 30px;
+    font-size: 120px;
+    margin: 0;
+    font-family: ar delaney;
+    color:  #E0FFFF;
+    padding-bottom: 0px;
+}
+
+h6{
+    padding-top: 10px;
+    font-size: 70px;
+    margin: 0;
+    font-family: ar delaney;
+    color: #E0FFFF;
+}
+
+
+  
+#wrapper{
+  width: 1200px;
+  height: 410px;
+  margin: auto;
+  background-color:rgba(1,1,1,0.4);
+  border-radius: 50px;
+}
+#header{
+  height: auto;
+  background: transparent;
+  margin-top: 50px;
+}
+
+.address{
+  font-size: 20px;
+  color: white;
+}
+
+.panel-panel-default{
+  background-color: #20B2AA;
+  margin-top: 0px;
+
+}
+
+.panel-body{
+  margin: 0px;
+}
+
+.page-header{
+  margin: -20px;
+}
